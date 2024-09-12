@@ -27,7 +27,7 @@ public class Siakad27 {
         System.out.print("Masukkan nilai ujian: ");
         nilaiUjian = sc.nextDouble();
 
-        nilaiAkhir = (nilaikuis + nilaiTugas + nilaiUjian) / 3;
+        nilaiAkhir = (nilaikuis * 0.2 + nilaiTugas * 1.5 + nilaiUjian * 0.3);
 
         System.out.println("Nama: " + nama + " NIM: " + nim);
         System.out.println("Kelas: " + kelas + " Absen: " + absen);
